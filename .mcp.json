@@ -1,0 +1,29 @@
+{
+  "mcpServers": {
+    "cloudflare": {
+      "command": "npx",
+      "args": ["mcp-remote", "https://docs.mcp.cloudflare.com/mcp"],
+      "env": {}
+    },
+    "context7": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@upstash/context7-mcp",
+        "--api-key",
+        "ctx7sk-2cf87577-334a-4571-bcf2-13bbb740cf3a"
+      ],
+      "env": {}
+    },
+    "puppeteer": {
+      "command": "npx",
+      "args": ["-y", "puppeteer-mcp-server"],
+      "env": {}
+    },
+    "storybook": {
+      "command": "npx",
+      "args": ["mcp-remote", "http://localhost:6006/mcp"],
+      "env": {}
+    }
+  }
+}
