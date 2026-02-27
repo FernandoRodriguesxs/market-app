@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add -f public/file.svg public/globe.svg public/next.svg public/vercel.svg public/window.svg README.md package-lock.json)",
+      "Bash(git rm --cached public/file.svg public/globe.svg public/next.svg public/vercel.svg public/window.svg README.md package-lock.json)",
+      "Bash(git commit -m \"chore: remove default Next.js boilerplate assets and files:*)",
+      "Bash(git add public/ README.md package-lock.json)",
+      "Bash(git add -u)",
+      "Bash(git restore --staged .)",
+      "Bash(git add -u -- README.md package-lock.json public/)"
+    ]
+  }
+}
