@@ -11,7 +11,27 @@
       "Bash(git push)",
       "Bash(gh pr list)",
       "Bash(git add .claude/settings.local.json)",
-      "Bash(git commit -m \"chore\\(tooling\\): allow git push and pr list in Claude Code settings\")"
+      "Bash(git commit -m \"chore\\(tooling\\): allow git push and pr list in Claude Code settings\")",
+      "Bash(git add package.json pnpm-lock.yaml)",
+      "Bash(git commit -m \"feat\\(deps\\): add bcryptjs, jose and zod for auth\")",
+      "Bash(git add changes/)",
+      "Bash(git commit -m \"docs\\(auth\\): add login feature documentation \\(PRD, specs, BDD, architecture\\)\")",
+      "Bash(git add types/index.ts)",
+      "Bash(git commit -m \"feat\\(types\\): add auth type definitions \\(LoginRequest, LoginResponse, SessionPayload\\)\")",
+      "Bash(git add lib/auth/)",
+      "Bash(git commit -m \"feat\\(auth\\): add auth domain layer \\(email, password, session, errors\\)\")",
+      "Bash(git add migrations/)",
+      "Bash(git commit -m \"feat\\(db\\): add users table migration\")",
+      "Bash(git add services/)",
+      "Bash(git commit -m \"feat\\(services\\): add user authentication service and repository\")",
+      "Bash(git add app/api/)",
+      "Bash(git commit -m \"feat\\(api\\): add POST /api/auth/login route with factory pattern\")",
+      "Bash(git add \"app/\\(auth\\)/\" components/)",
+      "Bash(git commit -m \"feat\\(ui\\): add login page and LoginForm component\")",
+      "Bash(git add middleware.ts)",
+      "Bash(git commit -m \"feat\\(auth\\): add session middleware for route protection\")",
+      "Bash(git add .gitignore .claude/settings.local.json)",
+      "Bash(git commit -m \"chore: fix logs/ gitignore pattern and update allowed bash commands\")"
     ]
   }
 }
