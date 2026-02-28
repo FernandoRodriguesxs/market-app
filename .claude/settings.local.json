@@ -7,7 +7,11 @@
       "Bash(git add public/ README.md package-lock.json)",
       "Bash(git add -u)",
       "Bash(git restore --staged .)",
-      "Bash(git add -u -- README.md package-lock.json public/)"
+      "Bash(git add -u -- README.md package-lock.json public/)",
+      "Bash(git push)",
+      "Bash(gh pr list)",
+      "Bash(git add .claude/settings.local.json)",
+      "Bash(git commit -m \"chore\\(tooling\\): allow git push and pr list in Claude Code settings\")"
     ]
   }
 }
